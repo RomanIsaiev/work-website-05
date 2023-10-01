@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I'm going online</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Unbounded:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <p class="header-start">
+          Старт онлайн інтенсиву <br />
+          <span> 30 вересня</span>
+        </p>
+        <h1 class="main-title">
+          Йду в <br />
+          <span class="main-title-span">онлайн</span>
+        </h1>
+        <p class="header-main-info">
+          Як усвідомити свою унікальність і почати заробляти на своїх знаннях,
+          вміннях та досвіді онлайн
+        </p>
+        <a class="header-button" href="#more">ДЕТАЛЬНІШЕ</a>
+        <p class="header-text-two">
+          Встигніть придбати зі <span class="text-two-accent">знижкою 85%</span>
+        </p>
+        <div class="header-sale-mark">
+          <picture
+            ><source
+              srcset="
+                ./images/header-mark-1x.png 1x,
+                ./images/header-mark-2x.png 2x
+              "
+              media="(min-width: 320px)"
+              width="82"
+              height="82" />
+            <img
+              class="sale-mark"
+              src="./images/header-mark-1x.png"
+              alt=""
+              width="82"
+              height="82"
+          /></picture>
+          <p class="sale-number">-85%</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-one">
+        <div class="container">
+          <div class="sale-timer">
+            <img
+              src="./images/fire-emoji-left-1x.png"
+              alt="fire"
+              width="33"
+              height="33"
+            />
+            <p class="header-sale">Знижка може зникнути через:</p>
+            <img
+              src="./images/fire-emoji-right-1x.png"
+              alt="fire"
+              width="33"
+              height="33"
+            />
+          </div>
+          <div id="countdown" class="countdown">
+            <div class="countdown-number">
+              <span class="hours countdown-time"></span>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+            </div>
+          </div>
+          <h2 class="one-title">Для кого інтенсив?</h2>
+          <p class="one-text">
+            Інтенсив розроблений для тих, хто хоче реалізувати себе в онлайн -
+            легко знаходити клієнтів, ділитися знаннями та заробляти
+          </p>
+          <h3 class="one-pod-title">Для тих, хто:</h3>
+          <ul class="one-list">
+            <li class="one-list-item">
+              <img
+                class="one-image-one image"
+                src="./images/one-galka-decor.svg"
+                alt="galka"
+                width="63"
+                height="60"
+              />
+              <div class="wrapper">
+                <h4 class="item-title">Хоче створювати свої інфопродукти</h4>
+                <p class="item-text">курси, програми, інтенсиви</p>
+                <img
+                  class="one-number-one"
+                  src="./images/one-svg.svg"
+                  alt="01"
+                  width="74"
+                  height="49"
+                />
+              </div>
+            </li>
+            <li class="one-list-item">
+              <img
+                class="one-image-two image"
+                src="./images/one-galka-decor.svg"
+                alt="galka"
+                width="63"
+                height="60"
+              />
+              <div class="wrapper">
+                <h4 class="item-title">консультує клієнтів</h4>
+                <p class="item-text">та хоче ділитися своїми знаннями онлайн</p>
+                <img
+                  class="one-number-two"
+                  src="./images/two-svg.svg"
+                  alt="02"
+                  width="99"
+                  height="49"
+                />
+              </div>
+            </li>
+            <li class="one-list-item">
+              <img
+                class="one-image-three image"
+                src="./images/one-galka-decor.svg"
+                alt="galka"
+                width="63"
+                height="60"
+              />
+              <div class="wrapper">
+                <h4 class="item-title">хоче розвивати</h4>
+                <p class="item-text">власний бренд</p>
+                <img
+                  class="one-number-three"
+                  src="./images/three-svg.svg"
+                  alt="03"
+                  width="99"
+                  height="49"
+                />
+              </div>
+            </li>
+            <li class="one-list-item">
+              <img
+                class="one-image-four image"
+                src="./images/one-galka-decor.svg"
+                alt="galka"
+                width="63"
+                height="60"
+              />
+              <div class="wrapper">
+                <h4 class="item-title">створив бізнес</h4>
+                <p class="item-text">та бажає збільшити потік клієнтів</p>
+                <img
+                  class="one-number-four"
+                  src="./images/four-svg.svg"
+                  alt="04"
+                  width="100"
+                  height="49"
+                />
+              </div>
+            </li>
+            <li class="one-list-item">
+              <img
+                class="one-image-five image"
+                src="./images/one-galka-decor.svg"
+                alt="galka"
+                width="63"
+                height="60"
+              />
+              <div class="wrapper">
+                <h4 class="item-title">хоче дізнатися</h4>
+                <p class="item-text">про свою унікальність і монетизувати її</p>
+                <img
+                  class="one-number-five"
+                  src="./images/five-svg.svg"
+                  alt="05"
+                  width="98"
+                  height="49"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-two">
+        <div class="container">
+          <div class="wrapper">
+            <h2 class="two-title">Про автора</h2>
+            <img
+              class="two-image"
+              src="./images/sect-two-olena-1x.jpg"
+              alt="Олена Корольова"
+            />
+            <h3 class="two-pod-title">Олена Корольова</h3>
+            <p class="sect-two-text sect-two-width">
+              Психолог, з 10-річним досвідом роботи в особистісному зростанні,
+              автор навчальних програм, після яких учасники починають діяти
+              легко.
+            </p>
+            <p class="sect-two-text">
+              Допомагаю зрозуміти та усунути психологічні причини, які заважають
+              досягати потрібних <br />
+              Вам результатів.
+            </p>
+            <p class="sect-two-text">
+              Тільки 1-2% людей змогли увійти в інфобізнес без опрацювання
+              блоків, а решта власників онлайн бізнесу вчасно їх опрацювала.
+            </p>
+            <p class="sect-two-text">
+              І я допомагаю це зробити за допомогою
+              <span>моєї особистої системи.</span>
+            </p>
+            <p class="sect-two-text-two">
+              Зважаючи на те, що 80% наших результатів – це заслуга нашого
+              підсвідомого, я в програмі застосовую техніки та вправи для
+              ефективної роботи з ним.
+            </p>
+          </div>
+          <h3 class="three-title">У програмі ти:</h3>
+          <ul class="two-list">
+            <li class="two-list-item">
+              <div class="item-wrapper">
+                <img
+                  class="sect-two-one"
+                  src="./images/sect-two-one.svg"
+                  alt="one"
+                />
+                <h4 class="item-title">Виявиш страхи,</h4>
+                <p class="item-text">
+                  які сильно заважають проявляти себе онлайн
+                </p>
+                <picture
+                  ><source
+                    srcset="
+                      ./images/two-item-one-smile-1x.png 1x,
+                      ./images/two-item-one-smile-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="40"
+                    height="40" />
+                  <img
+                    class="item-one-smile"
+                    src="./images/two-item-one-smile-1x.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                /></picture>
+              </div>
+            </li>
+            <li class="two-list-item">
+              <div class="item-wrapper">
+                <img
+                  class="sect-two-two"
+                  src="./images/sect-two-two.svg"
+                  alt="two"
+                />
+                <h4 class="item-title">Виявиш блоки,</h4>
+                <p class="item-text">що заважають стати корисним експертом</p>
+                <picture
+                  ><source
+                    srcset="
+                      ./images/two-item-two-stop-1x.png 1x,
+                      ./images/two-item-two-stop-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="50"
+                    height="50" />
+                  <img
+                    class="item-two-stop"
+                    src="./images/two-item-two-stop-1x.png"
+                    alt=""
+                    width="50"
+                    height="50"
+                /></picture>
+              </div>
+            </li>
+            <li class="two-list-item">
+              <div class="item-wrapper">
+                <img
+                  class="sect-two-three"
+                  src="./images/sect-two-three.svg"
+                  alt="three"
+                />
+                <h4 class="item-title">
+                  Побачиш, що <br />
+                  тобі заважає
+                </h4>
+                <p class="item-text">
+                  стати лідером для <br />
+                  твоїх клієнтів
+                </p>
+                <picture
+                  ><source
+                    srcset="
+                      ./images/two-item-three-eye-1x.png 1x,
+                      ./images/two-item-three-eye-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="45"
+                    height="45" />
+                  <img
+                    class="item-three-eye"
+                    src="./images/two-item-three-eye-1x.png"
+                    alt=""
+                    width="45"
+                    height="45"
+                /></picture>
+              </div>
+            </li>
+            <li class="two-list-item">
+              <div class="item-wrapper">
+                <img
+                  class="sect-two-four"
+                  src="./images/sect-two-four.svg"
+                  alt="four"
+                />
+                <h4 class="item-title">Побачиш свою унікальність</h4>
+                <p class="item-text">
+                  і ті якості, які посилять тебе у твоїй найкращій онлайн
+                  професії
+                </p>
+                <picture
+                  ><source
+                    srcset="
+                      ./images/two-item-four-cool-1x.png 1x,
+                      ./images/two-item-four-cool-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="45"
+                    height="45" />
+                  <img
+                    class="item-four-cool"
+                    src="./images/two-item-four-cool-1x.png"
+                    alt=""
+                    width="45"
+                    height="45"
+                /></picture>
+              </div>
+            </li>
+            <li class="two-list-item">
+              <div class="item-wrapper">
+                <img
+                  class="sect-two-five"
+                  src="./images/sect-two-five.svg"
+                  alt="five"
+                />
+                <h4 class="item-title">
+                  Виконаєш <br />
+                  техніки та вправи
+                </h4>
+                <p class="item-text">
+                  для того, щоб легко досягти своєї <br />
+                  професійної мети
+                </p>
+                <picture
+                  ><source
+                    srcset="
+                      ./images/two-item-five-strong-1x.png 1x,
+                      ./images/two-item-five-strong-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="50"
+                    height="50" />
+                  <img
+                    class="item-five-strong"
+                    src="./images/two-item-five-strong-1x.png"
+                    alt=""
+                    width="50"
+                    height="50"
+                /></picture>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-three">
+        <div class="container">
+          <h2 class="three-title">
+            Як <br />
+            <span>відбувається навчання?</span>
+          </h2>
+          <p class="three-first-text">
+            Програма проходить у телеграмі, складається з 5 відео завдань по
+            10-15 хвилин, а також загального чату для спілкування та мого
+            зворотного зв'язку.
+          </p>
+          <picture
+            ><source
+              srcset="
+                ./images/hand-down-1x.png 1x,
+                ./images/hand-down-2x.png 2x
+              "
+              media="(min-width: 320px)"
+              width="40"
+              height="44" />
+            <img
+              class="hand-down-image"
+              src="./images/hand-down-1x.png"
+              alt=""
+              width="40"
+              height="44"
+          /></picture>
+          <p class="three-second-text"></p>
+          <div class="faq">
+            <div class="question open isOpen">
+              <div class="question-name">
+                <p>Відеоурок 1</p>
+                <img
+                  class="question-plus"
+                  src="./images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <p>
+                  Легко знайдеш і опрацюєш страхи, які заважають на шляху до
+                  інфобізнесу
+                </p>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Відеоурок 2</p>
+                <img
+                  class="question-plus"
+                  src="./images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <p>
+                  Зрозумієш причини, з яких ти не можеш легко заявити про себе і
+                  передавати свої знання великій кількості клієнтів
+                </p>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Відеоурок 3</p>
+                <img
+                  class="question-plus"
+                  src="./images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <p>
+                  Побачиш причини через які клієнти поки не бачать у тобі лідера
+                </p>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Відеоурок 4</p>
+                <img
+                  class="question-plus"
+                  src="./images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <p>
+                  Побачиш свою унікальність і зможеш утвердитись у виборі своєї
+                  професії
+                </p>
+              </div>
+            </div>
+            <div class="question last-question">
+              <div class="question-name">
+                <p>Відеоурок 5</p>
+                <img
+                  class="question-plus"
+                  src="./images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <p>
+                  Зрозумієш, з чого складається онлайн бізнес і твоя
+                  експертність. Посилиш ті якості, які необхідні передачі свого
+                  досвіду і знань
+                </p>
+              </div>
+            </div>
+          </div>
+          <h3 class="three-second-title">
+            Які <br />
+            <span>результати ти отримаєш? </span>
+          </h3>
+          <ul class="result-list">
+            <li class="result-item">
+              <p class="result-text">
+                Побачиш свої психологічні блоки, які заважають реалізувати себе
+                в інфобізнесі
+              </p>
+            </li>
+            <li class="result-item change-color-item">
+              <p class="result-text">
+                Дізнаєшся, які якості (складові) необхідні для роботи з великою
+                кількістю клієнтів
+              </p>
+            </li>
+            <li class="result-item change-color-item">
+              <p class="result-text">
+                Вбудуєш ці якості у своє підсвідоме і почнеш їх виявляти
+              </p>
+            </li>
+            <li class="result-item">
+              <p class="result-text">
+                Зрозумієш, що тобі ще заважає ефективніше проявляти себе
+                експертом
+              </p>
+            </li>
+            <li class="result-item">
+              <p class="result-text">
+                Легко визначиш у чому твоя унікальність, твоя фішка
+              </p>
+            </li>
+            <li class="result-item change-color-item">
+              <p class="result-text">
+                Збереш усі необхідні внутрішні ресурси, що допоможе тобі швидше
+                створити онлайн бізнес
+              </p>
+            </li>
+          </ul>
+          <div class="price-container" id="more">
+            <h3 class="price-title">це все <span>за ціною</span></h3>
+            <div class="price-wrapper">
+              <p class="old-price">2000грн</p>
+              <p class="new-price">277грн</p>
+            </div>
+            <p class="more-info-price">
+              Встигніть придбати зі <span>знижкою 85%</span>
+            </p>
+          </div>
+          <a class="buy-button" href="" target="_blank" rel="nofollow"
+            >ПЕРЕЙТИ ДО ПОКУПКИ</a
+          >
+        </div>
+      </section>
+      <section class="section-four">
+        <div class="container">
+          <h2 class="four-title">Відповіді на <span>запитання:</span></h2>
+          <div class="faq-two">
+            <div class="question-two open isOpen">
+              <div class="question-two-name">
+                <p>Що корисного я отримаю від цієї програми?</p>
+                <img
+                  class="question-plus"
+                  src="./images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Побачиш і пропрацюєш усе те, що заважає тобі заснувати свій
+                  бізнес онлайн.
+                </p>
+                <p>Посилиш своє бажання та свої дії.</p>
+                <p>Зрозумієш, чим особисто ти можеш бути корисною людям.</p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>
+                  Як мені зрозуміти свою унікальність та в чому моє призначення?
+                </p>
+                <img
+                  class="question-plus"
+                  src="./images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Покажу тобі найлегший шлях зрозуміти, у чому твоя унікальність
+                  і як вона пов'язана з призначенням.
+                </p>
+                <p>
+                  Кожен з нас має те корисне, чого немає в інших. Важливо
+                  побачити це, посилити та ділитися зі світом.
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>
+                  Як зрозуміти, що мені щось заважає виявити свою експертність?
+                </p>
+                <img
+                  class="question-plus"
+                  src="./images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Якщо в тебе є бажання, а немає ресурсів на його втілення, це
+                  означає, що є щось підсвідоме, що потрібно усвідомити та
+                  опрацювати.
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Як несвідоме може вплинути на результати?</p>
+                <img
+                  class="question-plus"
+                  src="./images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Найлегший і найшвидший спосіб почати діяти та отримувати
+                  необхідні тобі ресурси, це робота за допомогою спеціальних
+                  технік з підсвідомим. У ньому зберігається весь наш досвід і
+                  всі наші знання, які треба побачити та застосувати у своєму
+                  онлайн бізнесі.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-info">
+          Ми працюємо та платимо податки в Україні. Але курс проводиться
+          російською мовою. Якщо для вас це значущий фактор, рекомендуємо
+          звернути на це увагу.
+        </p>
+      </div>
+    </footer>
+    <script src="./js/jquery-3.7.0.min.js" type="module"></script>
+    <script src="./js/faq.js" type="module"></script>
+    <script src="./js/timer.js" type="module"></script>
+  </body>
+</html>
